@@ -1,0 +1,79 @@
+* {
+  padding: 0;
+  /* margin: 0; */
+}
+.page {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
+  /* background-color: aqua; */
+}
+.calculator {
+  box-sizing: border-box;
+  width: 380px;
+  height: 370px;
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.display {
+  margin-bottom: 10px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border-style: solid;
+  border-width: 1px;
+  border-color: lightgrey;
+  box-sizing: border-box;
+  font-size: 250%;
+  padding: 15px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  height: 60px;
+  background-color: rgb(255, 255, 255);
+  overflow: hidden;
+}
+.operations {
+  background-color: rgb(250, 169, 70);
+}
+/* #op {
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(170, 170, 170);
+} */
+.btn:hover {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  /* background-color: floralwhite; */
+}
+/* #op:hover {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+} */
+.row {
+  /* background-color: aqua; */
+  display: flex;
+  gap: 10px;
+  margin-top: 6px;
+  flex: 1;
+  /* height: 60px; */
+}
+.btn {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 150%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: lightgray;
+  flex: 1;
+}
+.all_buttons {
+  height: 280px;
+  /* border: solid; */
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.onClick {
+  transition: 30ms;
+  background-color: rgb(185, 185, 185);
+  font-size: 170%;
+}
